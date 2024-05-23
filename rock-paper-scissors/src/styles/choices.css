@@ -1,0 +1,62 @@
+.game-choices {
+  position: relative;
+  /* width: 80vw;
+  height: 100vh; */
+  width: 50vw;
+  height: 70vh;
+  background-image: url("../images/bg-pentagon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+}
+
+.game-choices__choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 15px;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+}
+
+.game-choices__choice img {
+  width: 70%;
+  height: 70%;
+}
+
+.game-choices__choice:nth-child(1) {
+  position: absolute;
+  top: 5%;
+  left: 41%;
+  border: 10px solid yellow;
+}
+
+.game-choices__choice:nth-child(2) {
+  position: absolute;
+  left: 23%;
+  top: 30%;
+  border: 10px solid teal;
+}
+
+.game-choices__choice:nth-child(3) {
+  position: absolute;
+  right: 23%;
+  top: 30%;
+  border: 10px solid blue;
+}
+
+.game-choices__choice:nth-child(4) {
+  position: absolute;
+  top: 65%;
+  left: 29%;
+  border: 10px solid purple;
+}
+
+.game-choices__choice:nth-child(5) {
+  position: absolute;
+  top: 65%;
+  right: 29%;
+  border: 10px solid red;
+}
