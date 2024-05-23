@@ -1,0 +1,79 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore .env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore build directories for various JavaScript tools
+dist/
+build/
+.next/
+out/
+.cache/
+
+# Ignore specific editor and OS-generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore coverage directory
+coverage/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore specific directories for common tools and IDEs
+/.idea/
+/.vscode/
+/.vscode-test/
+*.code-workspace
+
+# Ignore storybook build directory
+storybook-static/
+
+# Ignore generated files by React Native
+.expo/
+web-build/
+
+# Ignore eslint cache
+.eslintcache
+
+# Ignore stylelint cache
+.stylelintcache
+
+# Ignore next.js cache
+.next/
+
+# Ignore Parcel cache
+.cache/
+
+# Ignore Nuxt.js build / generated files
+.nuxt/
+nuxt-dist/
+
+# Ignore Sapper build / generated files
+__sapper__/
+
+# Ignore Cypress test files
+.cypress/
+
+# Ignore various lock files
+pnpm-lock.yaml
+shrinkwrap.yaml
